@@ -1,0 +1,19 @@
+{
+  "name": "iap-redirector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gcp-metadata": "^4.1.0",
+    "google-auth-library": "^7.0.0"
+  }
+}
